@@ -1,0 +1,18 @@
+#include<stdio.h>
+main()
+{
+	int n;
+	printf("enter the number", n);
+	scanf("%d",&n);
+	int low=n;
+	while(n!=0)
+	{
+		if(low>n)
+		{
+			low=n;
+		}
+		printf("enter a number");
+		scanf("%d",&n);
+	}
+	printf("low=%d",low);
+}
